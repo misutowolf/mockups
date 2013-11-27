@@ -1,0 +1,25 @@
+/* Mockup CSS for CBNet */
+
+body {
+    background-color: #c0c0c0;
+}
+
+.header-container {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 20px;
+    background-color: #BB0000;
+    color: white;
+    text-align: center;
+}
+
+.header-container h3 {
+    margin: 0;
+    padding-top: 20px;
+}
+
+.header-container h6 {
+    margin: 0;
+    padding: 0;
+    padding-bottom: 20px;
+}
