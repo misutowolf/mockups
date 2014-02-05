@@ -1,0 +1,10 @@
+body {
+    background-image: url("./escheresque.png")
+}
+
+.page-container {
+    min-height: 100vh;
+    background-color: #FFFFFF;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}

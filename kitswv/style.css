@@ -20,15 +20,15 @@ html, body {
 
 .footer {
     height: 50px;
-    background-color: #c0c0c0;
-    border-top: 3px solid #880000;
+    background-color: #d3d3d3;
+    border-top: 3px solid #A20025;
     font-size: small;
 }
 
 .header-container {
     padding-top: 75px;
-    background-color: #c0c0c0;
-    border-bottom: 5px solid #880000;
+    background-color: #d3d3d3;
+    border-bottom: 5px solid #A20025;
     display: inline-block;
     width: 100%;
 }
@@ -59,7 +59,7 @@ html, body {
 
 .header-container a:hover {
     text-decoration: none;
-    background-color: #880000;
+    background-color: #A20025;
     color: white;
 }
 
@@ -75,8 +75,10 @@ html, body {
 }
 
 .front-info-block {
-    border-bottom: 2px solid #880000;
+    border-bottom: 2px solid #A20025;
+    font-family: "Open Sans";
     font-size: large;
+    font-weight: 300;
     padding-bottom: 10px;
 }
 
@@ -95,4 +97,31 @@ html, body {
 }
 .footer-right {
     text-align: right;
+}
+
+.page-title {
+    padding-top: 25px;
+    font-family: "Open Sans";
+    font-weight: bold;
+    font-size: large;
+}
+
+.news-post {
+    padding-top: 25px;
+    font-family: "Open Sans";
+}
+
+.news-title {
+    font-weight: bold;
+    font-size: large;
+}
+
+.news-byline {
+    font-size: x-small;
+    color: #c0c0c0;
+    padding-bottom: 10px;
+}
+
+.news-content {
+    font-size: small;
 }
